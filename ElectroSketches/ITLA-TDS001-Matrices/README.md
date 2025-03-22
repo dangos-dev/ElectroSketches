@@ -8,6 +8,8 @@ Este proyecto es una solución al ejercicio propuesto por el Prof. Jean Charly P
 
 ![demo.gif](assets/demo.gif)
 
+![demo_1.gif](assets/demo_1.gif)
+
 ## Descripción del Ejercicio
 
 El ejercicio original plantea los siguientes requisitos:
@@ -15,7 +17,7 @@ El ejercicio original plantea los siguientes requisitos:
 *   **Clasificación de Pasajeros:**
     *   Primera Clase: Pasajeros que pagan más de 1000 pesos.
     *   Segunda Clase: Pasajeros que pagan 500 pesos.
-    *   Tercera Clase: Pasajeros que pagan menos de 500 pesos (y menos de 1000).
+    *   Tercera Clase: Pasajeros que pagan menos de 500 pesos.
 *   **Preferencia de Asientos (Edad):**
     *   Primera Clase: Mayores de 25 años en asientos de los extremos (ventana/pasillo).
     *   Todas las Clases:
@@ -49,5 +51,5 @@ El ejercicio original plantea los siguientes requisitos:
 ## Estructura del Proyecto
 
 *   **`ITLA-TDS001-Matrices.ino`:**  Código principal del programa.
-*   **`ControlMatrizLED.h`:**  Cabecera de la librería `ControlMatrizLED`.
-*   **`ControlMatrizLED.cpp`:**  Implementación de la librería `ControlMatrizLED`.
+*   **`ControlDM11A88.h`:**  Cabecera de la librería `ControlDM11A88`.
+*   **`ControlDM11A88.cpp`:**  Implementación de la librería `ControlDM11A88`.
